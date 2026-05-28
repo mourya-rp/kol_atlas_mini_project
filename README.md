@@ -1,22 +1,22 @@
-#  KOL Atlas: Entity Extraction & Analysis Dashboard
+#  KOL Atlas Mini-Project
 
-An automated, end-to-end intelligence pipeline designed to extract, score, and semantically analyze medical Key Opinion Leader (KOL) profiles. This application parses profile data, engineers a custom influence metric, computes semantic research alignment via local sentence embeddings, and generates comparative AI summaries.
+A Streamlit dashboard that extracts Key Opinion Leader (KOL) medical profiles, calculates their influence, and uses AI to compare their research focus. 
 
-##  Key Features & Add-ons
-*   **Structured Parsing & Validation:** Processes raw HTML profiles into strictly validated JSON schemas using **Pydantic**, embedding data extraction confidence scores.
-*   **Algorithmic Scoring Engine:** Computes an objective, multi-weighted **Influence Score** based on citations, h-index, and publication keyword density.
-*   **Semantic Similarity Matrix:** Utilizes **SentenceTransformers** (`all-MiniLM-L6-v2`) to generate vector embeddings of research focus areas, calculating a cosine similarity matrix mapped visually via **Seaborn**.
-*   **Interactive Streamlit Dashboard:** A production-ready frontend showroom that displays detailed profile metrics, the visual alignment matrix, and cross-profile insights.
-*   **Live Gemini LLM Integration:** Connected securely via environment configurations to Google's **Gemini API** for automated, high-fidelity comparative research summaries.
+![Dashboard Preview](dashboard_preview.png)<img width="1470" height="956" alt="Screenshot 2026-05-28 at 7 33 22 PM" src="https://github.com/user-attachments/assets/7434f349-668b-4bf9-84d0-c9489dd1de01" />
 
----
 
-##  Tech Stack & Architecture
-*   **Frontend:** Streamlit
-*   **Data Validation:** Pydantic
-*   **AI/Embeddings:** SentenceTransformers, Scikit-learn
-*   **LLM Orchestration:** Google GenAI SDK (Gemini 3.5 Free Tier)
-*   **Data Vis & Processing:** Seaborn, Matplotlib, Pandas, BeautifulSoup4
+##  Features (Including All Add-ons)
+* **Data Extraction & Validation:** Parses HTML profiles into strict JSON schemas using **Pydantic** (includes confidence scores).
+* **Influence Scoring:** A custom weighting system ranking KOLs based on citations, h-index, and keyword density.
+* **Similarity Matrix:** Uses local **SentenceTransformers** to map semantic research overlap via a visual heatmap.
+* **LLM Insights:** Integrates the **Gemini API** to generate automated, cross-profile comparison summaries.
+
+## 🛠️ Tech Stack
+* **Frontend:** Streamlit
+* **Backend:** Python, Pydantic, BeautifulSoup4
+* **AI & Data:** Google GenAI (Gemini), SentenceTransformers, Scikit-learn, Seaborn
+
+
 
 ---
 
