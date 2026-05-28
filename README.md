@@ -1,4 +1,4 @@
-# 🔬 KOL Atlas: Entity Extraction & Analysis Dashboard
+#  KOL Atlas: Entity Extraction & Analysis Dashboard
 
 An automated, end-to-end intelligence pipeline designed to extract, score, and semantically analyze medical Key Opinion Leader (KOL) profiles. This application parses profile data, engineers a custom influence metric, computes semantic research alignment via local sentence embeddings, and generates comparative AI summaries.
 
@@ -11,7 +11,7 @@ An automated, end-to-end intelligence pipeline designed to extract, score, and s
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 *   **Frontend:** Streamlit
 *   **Data Validation:** Pydantic
 *   **AI/Embeddings:** SentenceTransformers, Scikit-learn
@@ -20,7 +20,7 @@ An automated, end-to-end intelligence pipeline designed to extract, score, and s
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 ├── data/                  # Local target HTML profile mocks
 ├── .env                   # Secure environment secrets (API Keys)
