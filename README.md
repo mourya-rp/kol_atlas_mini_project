@@ -22,7 +22,7 @@ Dashboard Preview<img width="1470" height="956" alt="Screenshot 2026-05-28 at 7 
 
 ## Project Structure
 ```text
-├── data/                  # Local target HTML profile mocks
+├── data/                  # Target HTML profileS
 ├── .env                   # Secure environment secrets (API Keys)
 ├── .gitignore             # Git exclusion mapping (ignores venv, .env, caches)
 ├── app.py                 # Interactive Streamlit dashboard frontend
