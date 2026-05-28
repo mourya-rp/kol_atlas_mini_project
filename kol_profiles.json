@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Anthony S. Fauci",
+        "affiliation": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "h_index": 242,
+        "citations": 297666,
+        "top_keywords": [
+            "Immunology",
+            "Infectious Diseases",
+            "HIV/AIDS",
+            "Virology",
+            "Public Health"
+        ],
+        "source_url": "https://scholar.google.com/citations?user=0dDO3SAAAAAJ&hl=en",
+        "confidence_scores": {
+            "name": 1.0,
+            "affiliation": 0.8,
+            "top_keywords": 0.9,
+            "metrics": 0.9
+        },
+        "influence_score": 76.08
+    },
+    {
+        "name": "Robert S. Langer",
+        "affiliation": "Massachusetts Institute of Technology (MIT)",
+        "h_index": 338,
+        "citations": 477112,
+        "top_keywords": [
+            "Biomedical Engineering",
+            "Drug Delivery",
+            "Tissue Engineering",
+            "Biomaterials",
+            "Nanomedicine"
+        ],
+        "source_url": "https://scholar.google.com/citations?user=5HX--AYAAAAJ&hl=en",
+        "confidence_scores": {
+            "name": 1.0,
+            "affiliation": 0.8,
+            "top_keywords": 0.9,
+            "metrics": 0.9
+        },
+        "influence_score": 98.17
+    },
+    {
+        "name": "Katalin Karik\u00f3",
+        "affiliation": "University of Pennsylvania / BioNTech",
+        "h_index": 67,
+        "citations": 35236,
+        "top_keywords": [
+            "mRNA Therapeutics",
+            "Biochemistry",
+            "Immunology",
+            "Protein Replacement",
+            "Gene Therapy"
+        ],
+        "source_url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ&hl=en",
+        "confidence_scores": {
+            "name": 1.0,
+            "affiliation": 0.8,
+            "top_keywords": 0.9,
+            "metrics": 0.9
+        },
+        "influence_score": 31.75
+    }
+]
