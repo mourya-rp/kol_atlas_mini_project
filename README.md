@@ -2,7 +2,7 @@
 
 A Streamlit dashboard that extracts Key Opinion Leader (KOL) medical profiles, calculates their influence, and uses AI to compare their research focus. 
 
-![Dashboard Preview]<img width="1470" height="956" alt="Screenshot 2026-05-28 at 7 33 22 PM" src="https://github.com/user-attachments/assets/7434f349-668b-4bf9-84d0-c9489dd1de01" />
+Dashboard Preview<img width="1470" height="956" alt="Screenshot 2026-05-28 at 7 33 22 PM" src="https://github.com/user-attachments/assets/7434f349-668b-4bf9-84d0-c9489dd1de01" />
 
 
 ##  Features (Including All Add-ons)
