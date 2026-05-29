@@ -19,7 +19,7 @@ class KOLProfile(BaseModel):
 
 def calculate_influence(profile: KOLProfile) -> float:
     w_citations, w_hindex, w_keywords = 0.4, 0.4, 0.2
-    norm_citations = min(profile.citations / 500000.0, 1.0) # Adjusted for medical giants
+    norm_citations = min(profile.citations / 500000.0, 1.0)
     norm_hindex = min(profile.h_index / 300.0, 1.0)
     norm_keywords = min(len(profile.top_keywords) / 5.0, 1.0)
     
